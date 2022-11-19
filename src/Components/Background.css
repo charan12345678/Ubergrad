@@ -1,0 +1,88 @@
+.background_image {
+    background-image: url('../image.jpg');
+    width: '100%';
+}
+
+.hr {
+    display: block;
+    height: 1px;
+    border-top: 0.5px solid #c0c0c0;
+    margin-top: '-10px';
+    padding: 0;
+}
+
+.newCard {
+  height: 80px;
+  width: 660px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: whitesmoke;
+}
+.secondCard {
+    border-bottom: 1px solid #c0c0c0;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 50px;
+    width: 660px;
+    background-color: whitesmoke;
+  }
+
+.thirdCard {
+    
+    border-bottom: 1px solid #c0c0c0;
+    border-radius: 8px;
+    margin-left: -300px;
+    margin-top:-25px;
+    height: 300px;
+    width: 200%;
+    background-color: whitesmoke;
+}
+
+@media (max-width: 1300px) {
+    .thirdCard {
+        border-bottom: 1px solid #c0c0c0;
+        border-radius: 8px;
+        margin-left: -260px;
+        margin-top:-25px;
+        height: 300px;
+        width: 180%;
+        background-color: whitesmoke;
+    }
+}
+
+@media (max-width: 1190px) {
+    .thirdCard {
+        border-bottom: 1px solid #c0c0c0;
+        border-radius: 8px;
+        margin-left: -220px;
+        margin-top:-25px;
+        height: 300px;
+        width: 160%;
+        background-color: whitesmoke;
+    }
+}
+
+@media (max-width: 1072px) {
+    .thirdCard {
+        border-bottom: 1px solid #c0c0c0;
+        border-radius: 8px;
+        margin-left: -140px;
+        margin-top:-25px;
+        height: 300px;
+        width: 140%;
+        background-color: whitesmoke;
+    }
+}
+
+
+
+.courseCard {
+    border-bottom: 1px solid #c0c0c0;
+    border-radius: 8px;
+    margin-left: -300px;
+    margin-top:-25px;
+    height: 150px;
+    width: 1250px;
+    
+    background-color: whitesmoke;
+}

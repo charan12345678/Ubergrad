@@ -1,0 +1,114 @@
+.loginButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 250px;
+}
+
+.dropdownContainer {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (max-width: 1500px) and (min-width: 1400px)  {
+    .loginButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 160px;
+    }
+}
+
+@media (max-width: 1400px) and (min-width:1340px) {
+    .loginButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 1340px) and (min-width:1290px) {
+    .loginButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 60px;
+    }
+
+}
+
+@media (max-width: 1295px)  {
+    
+    .dropdownContainer {
+        display: none;
+    }
+
+    .tabsContainer {
+        display: none;
+    }
+
+    .loginButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 600px;
+    }
+}
+
+@media (max-width: 1240px)  {
+    
+    .dropdownContainer {
+        display: none;
+    }
+
+    .tabsContainer {
+        display: none;
+    }
+
+    .loginButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 550px;
+    }
+}
+
+@media (max-width: 1200px)  {
+    
+    .dropdownContainer {
+        display: none;
+    }
+
+    .tabsContainer {
+        display: none;
+    }
+
+    .loginButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 450px;
+    }
+}
+
+@media (max-width: 1100px)  {
+    
+    .dropdownContainer {
+        display: none;
+    }
+
+    .tabsContainer {
+        display: none;
+    }
+
+    .loginButton {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 200px;
+    }
+}
+
