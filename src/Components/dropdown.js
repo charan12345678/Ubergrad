@@ -3,8 +3,6 @@ import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import NativeSelect from '@mui/material/NativeSelect';
 import Box from '@mui/material/Box';
-import { styled } from '@mui/material/styles';
-import InputBase from '@mui/material/InputBase';
 import { Typography } from '@mui/material';
 import './Background.css';
 
@@ -37,11 +35,7 @@ export default function Dropdown({name,option,selectedValue,handleValue}) {
         <option value={opt[1]}>{opt[0]}</option>
        ) )
     }
-    {/* <option value={1}>All About GMAT</option>
-      <option value={10}>All About GRE</option>
-      <option value={20}>Twenty</option>
-      <option value={30}>Thirty</option>
-  <option value={40}>{option}</option> */}
+    
     </NativeSelect>
     
       </FormControl>

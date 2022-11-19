@@ -13,7 +13,6 @@ import Tab from '@mui/material/Tab';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-// import UberGrad from '../public/Ubergrad_transparent-logo.png';
 import Ubergrad from './Ubergrad_transparent-logo.png';
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
